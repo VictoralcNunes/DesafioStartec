@@ -99,3 +99,67 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 206ms (Views: 200.0ms | ActiveRecord: 0.0ms | Allocations: 6956)
 
 
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:04:40 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 34.7ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 354ms (Views: 345.1ms | ActiveRecord: 0.0ms | Allocations: 6988)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:18:08 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 249)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2251ms (Views: 2246.1ms | ActiveRecord: 0.0ms | Allocations: 20141)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:19:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 3373)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:19:55 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 4369)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:19:58 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 3353)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:23:29 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 932ms (Views: 931.3ms | ActiveRecord: 0.0ms | Allocations: 12607)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:25:58 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 626ms (Views: 625.4ms | ActiveRecord: 0.0ms | Allocations: 12904)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:29:47 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 24.5ms | Allocations: 130)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms | Allocations: 4478)
+
+
