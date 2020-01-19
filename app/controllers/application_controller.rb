@@ -1,8 +1,8 @@
 class ApplicationController < ActionController::Base
-    def path 
-        data = params[:body]
-        subject=params[:subject]
-        user = params[:email]
-        ApplicationMailer.send_notification_to_master(data,user,subject).deliver
+    def send_minions 
+        user = params[:name]
+        email=params[:email]
+        qtd = params[:minions_qtd]
+        ApplicationMailer.send_notification(user,email,qtd).deliver
     end
 end

@@ -924,3 +924,565 @@ No template found for ApplicationController#path, rendering head :no_content
 Completed 204 No Content in 3296ms (ActiveRecord: 0.0ms | Allocations: 25524)
 
 
+Started GET "/" for 127.0.0.1 at 2020-01-19 19:31:37 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 593)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 13.4ms | Allocations: 89)
+Completed 200 OK in 642ms (Views: 636.3ms | ActiveRecord: 0.0ms | Allocations: 8505)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/minion1.jpg"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.2.1) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.2.1) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.2.1) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.2.1) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-01-19 19:33:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.5ms | Allocations: 1038)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 86)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 5607)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 19:34:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 994)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 86)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 5549)
+
+
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 19:34:57 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"cu5RWZs3aA6Np3xpJ7bdO73Ao2dkHA9+Qi4F1tIwtDU3Zgkz0IGXwCmmfrcCFxXMHu+0T5uQ7NYOti993LaJLg==", "email"=>"gosteidesse@whatever.com", "nome"=>"hahaha", "qtd"=>"3", "commit"=>"submit"}
+Completed 500 Internal Server Error in 149ms (ActiveRecord: 0.0ms | Allocations: 13482)
+
+
+  
+NoMethodError (undefined method `send_notification' for ApplicationMailer:Class):
+  
+app/controllers/application_controller.rb:6:in `send_minions'
+Started GET "/" for 127.0.0.1 at 2020-01-19 19:35:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 757)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 4336)
+
+
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 19:35:20 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"fWK39qxtKPr5mYntigcn1zdSWkTbfo6UzRIMePjSp5E46u+c59vXNF2YizOvpu8glH1NbCTybTyBiibT9lSaig==", "email"=>"gosteidesse@whatever.com", "nome"=>"hahaha", "qtd"=>"3", "commit"=>"submit"}
+ApplicationMailer#send_notification: processed outbound mail in 6.0ms
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 5339)
+
+
+  
+NameError (undefined local variable or method `subject' for #<ApplicationMailer:0x00007fa3f8077288>):
+  
+app/mailers/application_mailer.rb:9:in `send_notification'
+app/controllers/application_controller.rb:6:in `send_minions'
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 19:35:48 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"fWK39qxtKPr5mYntigcn1zdSWkTbfo6UzRIMePjSp5E46u+c59vXNF2YizOvpu8glH1NbCTybTyBiibT9lSaig==", "email"=>"gosteidesse@whatever.com", "nome"=>"hahaha", "qtd"=>"3", "commit"=>"submit"}
+ApplicationMailer#send_notification: processed outbound mail in 1.1ms
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3818)
+
+
+  
+ActionView::MissingTemplate (Missing template application_mailer/send_notification with "mailer". Searched in:
+  * "application_mailer"
+):
+  
+app/mailers/application_mailer.rb:9:in `send_notification'
+app/controllers/application_controller.rb:6:in `send_minions'
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 19:35:52 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"fWK39qxtKPr5mYntigcn1zdSWkTbfo6UzRIMePjSp5E46u+c59vXNF2YizOvpu8glH1NbCTybTyBiibT9lSaig==", "email"=>"gosteidesse@whatever.com", "nome"=>"hahaha", "qtd"=>"3", "commit"=>"submit"}
+ApplicationMailer#send_notification: processed outbound mail in 0.6ms
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1809)
+
+
+  
+ActionView::MissingTemplate (Missing template application_mailer/send_notification with "mailer". Searched in:
+  * "application_mailer"
+):
+  
+app/mailers/application_mailer.rb:9:in `send_notification'
+app/controllers/application_controller.rb:6:in `send_minions'
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 19:36:28 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"fWK39qxtKPr5mYntigcn1zdSWkTbfo6UzRIMePjSp5E46u+c59vXNF2YizOvpu8glH1NbCTybTyBiibT9lSaig==", "email"=>"gosteidesse@whatever.com", "nome"=>"hahaha", "qtd"=>"3", "commit"=>"submit"}
+  Rendering application_mailer/send_notification.html.erb
+  Rendered application_mailer/send_notification.html.erb (Duration: 0.5ms | Allocations: 129)
+  Rendering application_mailer/send_notification.text.erb
+  Rendered application_mailer/send_notification.text.erb (Duration: 0.4ms | Allocations: 109)
+ApplicationMailer#send_notification: processed outbound mail in 45.1ms
+Delivered mail 5e24d9ec7dc51_18e92b28a32923f84272a@victornunes-Inspiron-5548.mail (3346.3ms)
+Date: Sun, 19 Jan 2020 19:36:28 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e24d9ec7dc51_18e92b28a32923f84272a@victornunes-Inspiron-5548.mail>
+Subject: Novo pedido!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e24d9ec75970_18e92b28a32923f8426dd";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24d9ec75970_18e92b28a32923f8426dd
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24d9ec75970_18e92b28a32923f8426dd
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    =0D
+    <h1>Voc=C3=AA tem uma nova demanda!</h1>=0D
+    <p><b>"Colocar nome aqui"</b> fez um pedido de <b>"Colocar quantidade=
+ aqui"</b> Minions!</p>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5e24d9ec75970_18e92b28a32923f8426dd--
+
+No template found for ApplicationController#send_minions, rendering head :no_content
+Completed 204 No Content in 3397ms (ActiveRecord: 0.0ms | Allocations: 16798)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 19:37:13 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 992)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 86)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 5518)
+
+
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 19:37:14 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"iWuvlTR48bWO/ktKIiEMSbSkfdBDcIUqASFTCpCfR/HM4/f/f84Oeyr/SZQHgMS+F4tq+Lz8ZoJNuXmhnhl66g==", "email"=>"gosteidesse@whatever.com", "nome"=>"hahaha", "qtd"=>"3", "commit"=>"submit"}
+  Rendering application_mailer/send_notification.html.erb
+  Rendered application_mailer/send_notification.html.erb (Duration: 0.7ms | Allocations: 155)
+  Rendering application_mailer/send_notification.text.erb
+  Rendered application_mailer/send_notification.text.erb (Duration: 0.4ms | Allocations: 106)
+ApplicationMailer#send_notification: processed outbound mail in 7.8ms
+Delivered mail 5e24da1ab44c4_18e92b28a32923f842998@victornunes-Inspiron-5548.mail (4196.7ms)
+Date: Sun, 19 Jan 2020 19:37:14 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e24da1ab44c4_18e92b28a32923f842998@victornunes-Inspiron-5548.mail>
+Subject: Novo pedido!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e24da1ab3bca_18e92b28a32923f8428d5";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24da1ab3bca_18e92b28a32923f8428d5
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24da1ab3bca_18e92b28a32923f8428d5
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    =0D
+    <h1>Voc=C3=AA tem uma nova demanda!</h1>=0D
+    <p><b></b> fez um pedido de <b></b> Minions!</p>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5e24da1ab3bca_18e92b28a32923f8428d5--
+
+No template found for ApplicationController#send_minions, rendering head :no_content
+Completed 204 No Content in 4210ms (ActiveRecord: 0.0ms | Allocations: 14054)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 19:38:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 991)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 86)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 5546)
+
+
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 19:38:21 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"DYt4lst9R2lYOdR8pOwTahLxCp4vBCi/i3mjzea9JA1IAyD8gMu4p/w41qKBTdudsd4dttCIyxfH4Ylm6DsZFg==", "email"=>"gosteidesse@whatever.com", "nome"=>"hahaha", "qtd"=>"3", "commit"=>"submit"}
+  Rendering application_mailer/send_notification.html.erb
+  Rendered application_mailer/send_notification.html.erb (Duration: 0.5ms | Allocations: 155)
+  Rendering application_mailer/send_notification.text.erb
+  Rendered application_mailer/send_notification.text.erb (Duration: 0.4ms | Allocations: 106)
+ApplicationMailer#send_notification: processed outbound mail in 7.8ms
+Delivered mail 5e24da5d44ba8_18e92b28a32923f843153@victornunes-Inspiron-5548.mail (3008.7ms)
+Date: Sun, 19 Jan 2020 19:38:21 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e24da5d44ba8_18e92b28a32923f843153@victornunes-Inspiron-5548.mail>
+Subject: Novo pedido!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e24da5d43aa6_18e92b28a32923f843062";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24da5d43aa6_18e92b28a32923f843062
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24da5d43aa6_18e92b28a32923f843062
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    =0D
+    <h1>Voc=C3=AA tem uma nova demanda!</h1>=0D
+    <p><b></b> fez um pedido de <b></b> Minions!</p>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5e24da5d43aa6_18e92b28a32923f843062--
+
+No template found for ApplicationController#send_minions, rendering head :no_content
+Completed 204 No Content in 3023ms (ActiveRecord: 0.0ms | Allocations: 14083)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 19:39:24 -0300
+  
+ActionController::RoutingError (uninitialized constant LayoutsController):
+  
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.2.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.1.1) lib/rack/tempfile_reaper.rb:17:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-01-19 19:42:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 23.4ms | Allocations: 3635)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.4ms | Allocations: 89)
+Completed 200 OK in 42ms (Views: 36.1ms | ActiveRecord: 0.0ms | Allocations: 8997)
+
+
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 19:42:54 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"ADYzyeM1dla2zJ0mmhohGc0S0S6LBAJeB/2Ze9uXaKJFvmujqIOJmBLNn/i/u+nubj3GBnSI4fZLZbPQ1RFVuQ==", "email"=>"gosteidesse@whatever.com", "nome"=>"Victor", "qtd"=>"3", "commit"=>"submit"}
+  Rendering application_mailer/send_notification.html.erb
+  Rendered application_mailer/send_notification.html.erb (Duration: 0.5ms | Allocations: 160)
+  Rendering application_mailer/send_notification.text.erb
+  Rendered application_mailer/send_notification.text.erb (Duration: 0.4ms | Allocations: 109)
+ApplicationMailer#send_notification: processed outbound mail in 10.3ms
+Delivered mail 5e24db6e8afcd_1e2c2b28e8921b9855b4@victornunes-Inspiron-5548.mail (3142.9ms)
+Date: Sun, 19 Jan 2020 19:42:54 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e24db6e8afcd_1e2c2b28e8921b9855b4@victornunes-Inspiron-5548.mail>
+Subject: Novo pedido!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e24db6e8995f_1e2c2b28e8921b985449";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24db6e8995f_1e2c2b28e8921b985449
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24db6e8995f_1e2c2b28e8921b985449
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    =0D
+    <h1>Voc=C3=AA tem uma nova demanda!</h1>=0D
+    <p><b></b> fez um pedido de <b></b> Minions!</p>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5e24db6e8995f_1e2c2b28e8921b985449--
+
+No template found for ApplicationController#send_minions, rendering head :no_content
+Completed 204 No Content in 3179ms (ActiveRecord: 0.0ms | Allocations: 26312)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 19:43:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 992)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 86)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 5546)
+
+
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 19:43:46 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"RhFiXKM7I6opK4OQbHk+hOyE1OdNwjxdcSezaBuCZUQDmTo26I3cZI0qgU5J2PZzT6vDz7JO3/U9v5nDFQRYXw==", "email"=>"gosteidesse@whatever.com", "nome"=>"Victor", "qtd"=>"3", "commit"=>"submit"}
+  Rendering application_mailer/send_notification.html.erb
+  Rendered application_mailer/send_notification.html.erb (Duration: 0.6ms | Allocations: 151)
+  Rendering application_mailer/send_notification.text.erb
+  Rendered application_mailer/send_notification.text.erb (Duration: 0.5ms | Allocations: 106)
+ApplicationMailer#send_notification: processed outbound mail in 8.2ms
+Delivered mail 5e24dba225f93_1e2c2b28e8921c385714@victornunes-Inspiron-5548.mail (2961.9ms)
+Date: Sun, 19 Jan 2020 19:43:46 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e24dba225f93_1e2c2b28e8921c385714@victornunes-Inspiron-5548.mail>
+Subject: Novo pedido!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e24dba225223_1e2c2b28e8921c385696";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24dba225223_1e2c2b28e8921c385696
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24dba225223_1e2c2b28e8921c385696
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    =0D
+    <h1>Voc=C3=AA tem uma nova demanda!</h1>=0D
+    <p><b></b> fez um pedido de <b></b> Minions!</p>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5e24dba225223_1e2c2b28e8921c385696--
+
+No template found for ApplicationController#send_minions, rendering head :no_content
+Completed 204 No Content in 2976ms (ActiveRecord: 0.0ms | Allocations: 14057)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 19:44:33 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 993)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.4ms | Allocations: 86)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 5552)
+
+
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 19:44:34 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"KDiKCwkAqi3bosM6oayh4TrXAba955ht1cLaDTBESThtsNJhQrZV43+jweSEDWkWmfgWnkJre8WZWvCmPsJ0Iw==", "email"=>"gosteidesse@whatever.com", "name"=>"Victor", "minions_qtd"=>"3", "commit"=>"submit"}
+  Rendering application_mailer/send_notification.html.erb
+  Rendered application_mailer/send_notification.html.erb (Duration: 0.4ms | Allocations: 152)
+  Rendering application_mailer/send_notification.text.erb
+  Rendered application_mailer/send_notification.text.erb (Duration: 0.4ms | Allocations: 106)
+ApplicationMailer#send_notification: processed outbound mail in 8.3ms
+Delivered mail 5e24dbd2f1a88_1e2c2b28e8921da059b3@victornunes-Inspiron-5548.mail (3007.2ms)
+Date: Sun, 19 Jan 2020 19:44:34 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e24dbd2f1a88_1e2c2b28e8921da059b3@victornunes-Inspiron-5548.mail>
+Subject: Novo pedido!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e24dbd2f089b_1e2c2b28e8921da058ed";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24dbd2f089b_1e2c2b28e8921da058ed
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24dbd2f089b_1e2c2b28e8921da058ed
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    =0D
+    <h1>Voc=C3=AA tem uma nova demanda!</h1>=0D
+    <p><b>Victor</b> fez um pedido de <b>3</b> Minions!</p>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5e24dbd2f089b_1e2c2b28e8921da058ed--
+
+No template found for ApplicationController#send_minions, rendering head :no_content
+Completed 204 No Content in 3023ms (ActiveRecord: 0.0ms | Allocations: 14050)
+
+

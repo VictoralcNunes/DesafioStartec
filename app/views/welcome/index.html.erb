@@ -1,21 +1,14 @@
-<h2>Hello World</h2>
-<p>
-  The time is now: <%= Time.now %>.
-
-</p>
-
-
-<section>
+<section id="minion-form">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        One of three columns
+        <%= image_tag("minion1.jpg", :alt => "minion-toy") %>
       </div>
       <div class="col-md-6">
-        <%= form_tag '/path' do%>
+        <%= form_tag '/send_minions' do%>
           Email : <br><%= text_field_tag 'email', ''%><br>
-          subject: <br><%= text_field_tag 'subject', ''%><br>
-          Body:<%= text_area_tag 'body', ''%>
+          subject: <br><%= text_field_tag 'name', ''%><br>
+          Body:<%= text_area_tag 'minions_qtd', ''%>
           <%= submit_tag "submit",:value => "submit"%>
         <%end%>
       </div>

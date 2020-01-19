@@ -9,6 +9,7 @@
 
   <body>
     <%= yield %>
-    <%= @body%>
+    <h1>Você tem uma nova demanda!</h1>
+    <p><b><%=@user%></b> fez um pedido de <b><%=@qtd%></b> Minions!</p>
   </body>
 </html>
