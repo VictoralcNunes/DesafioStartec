@@ -163,3 +163,764 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms | Allocations: 4478)
 
 
+Started GET "/" for 127.0.0.1 at 2020-01-19 16:22:32 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 14.6ms | Allocations: 249)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 2384ms (ActiveRecord: 0.0ms | Allocations: 14593)
+
+
+  
+ActionView::Template::Error (Missing partial /_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/victornunes/challenge/DesafioStartec/app/views"
+  * "/home/victornunes/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.2.1/app/views"
+  * "/home/victornunes/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.2.1/app/views"
+):
+    13: 
+    14:   <body>
+    15:     <%= yield %>
+    16:     <%= render "/footer"%>
+    17:   </body>
+    18: 
+    19: </html>
+  
+app/views/layouts/application.html.erb:16
+Started GET "/" for 127.0.0.1 at 2020-01-19 16:23:13 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms | Allocations: 5865)
+
+
+  
+ActionView::Template::Error (Missing partial welcome/_footer, application/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/victornunes/challenge/DesafioStartec/app/views"
+  * "/home/victornunes/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.2.1/app/views"
+  * "/home/victornunes/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.2.1/app/views"
+):
+    13: 
+    14:   <body>
+    15:     <%= yield %>
+    16:     <%= render "footer"%>
+    17:   </body>
+    18: 
+    19: </html>
+  
+app/views/layouts/application.html.erb:16
+Started GET "/" for 127.0.0.1 at 2020-01-19 16:23:27 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 89)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 4790)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 16:24:24 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 1.3ms | Allocations: 94)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.0ms | Allocations: 4778)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 16:36:59 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 232.4ms | Allocations: 487)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 45.3ms | Allocations: 90)
+Completed 200 OK in 1310ms (Views: 1208.6ms | ActiveRecord: 0.0ms | Allocations: 5109)
+
+
+Started POST "/path" for 127.0.0.1 at 2020-01-19 16:39:06 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/path"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/path" for 127.0.0.1 at 2020-01-19 16:45:14 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/path"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-01-19 16:45:21 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 19.0ms | Allocations: 493)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 14.8ms | Allocations: 89)
+Completed 200 OK in 474ms (Views: 472.3ms | ActiveRecord: 0.0ms | Allocations: 7728)
+
+
+Started POST "/path" for 127.0.0.1 at 2020-01-19 16:45:38 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/path"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-01-19 16:47:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 621)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.5ms | Allocations: 89)
+Completed 200 OK in 40ms (Views: 35.0ms | ActiveRecord: 0.0ms | Allocations: 8289)
+
+
+Started POST "/path" for 127.0.0.1 at 2020-01-19 16:47:27 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"hq/kk8RoQvX51kIRP8H4rKIsYx73aXs2nA1sH54PU17DJ7z5j969O13XQM8aYDBbAQN0NgjlmJ7QlUa0kIluRQ==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testeando", "body"=>"testando mailer\r\n", "commit"=>"submit"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2255)
+
+
+  
+NameError (uninitialized constant ApplicationController::Mailer):
+  
+app/controllers/application_controller.rb:6:in `path'
+Started POST "/path" for 127.0.0.1 at 2020-01-19 16:53:26 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"hq/kk8RoQvX51kIRP8H4rKIsYx73aXs2nA1sH54PU17DJ7z5j969O13XQM8aYDBbAQN0NgjlmJ7QlUa0kIluRQ==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testeando", "body"=>"testando mailer\r\n", "commit"=>"submit"}
+ApplicationMailer#mail_method: processed outbound mail in 1.1ms
+Completed 500 Internal Server Error in 411ms (ActiveRecord: 0.0ms | Allocations: 21040)
+
+
+  
+ActionView::MissingTemplate (Missing template application_mailer/mail_method with "mailer". Searched in:
+  * "application_mailer"
+):
+  
+app/mailers/application_mailer.rb:7:in `mail_method'
+app/controllers/application_controller.rb:6:in `path'
+Started POST "/path" for 127.0.0.1 at 2020-01-19 16:55:49 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"hq/kk8RoQvX51kIRP8H4rKIsYx73aXs2nA1sH54PU17DJ7z5j969O13XQM8aYDBbAQN0NgjlmJ7QlUa0kIluRQ==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testeando", "body"=>"testando mailer\r\n", "commit"=>"submit"}
+ApplicationMailer#mail_method: processed outbound mail in 0.6ms
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3438)
+
+
+  
+ActionView::MissingTemplate (Missing template application_mailer/mail_method with "mailer". Searched in:
+  * "application_mailer"
+):
+  
+app/mailers/application_mailer.rb:7:in `mail_method'
+app/controllers/application_controller.rb:6:in `path'
+Started GET "/" for 127.0.0.1 at 2020-01-19 16:55:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3908)
+
+
+Started POST "/path" for 127.0.0.1 at 2020-01-19 16:56:16 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"kG4an/mcJjgUUQHGv3iLtWX58ZnN3peUs+xpB5gWPtjV5kL1sirZ9rBQAxia2UNCxtbmsTJSdDz/dEOslpADww==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testando", "body"=>"teste de mailer", "commit"=>"submit"}
+ApplicationMailer#mail_method: processed outbound mail in 0.7ms
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1801)
+
+
+  
+ActionView::MissingTemplate (Missing template application_mailer/mail_method with "mailer". Searched in:
+  * "application_mailer"
+):
+  
+app/mailers/application_mailer.rb:7:in `mail_method'
+app/controllers/application_controller.rb:6:in `path'
+Started POST "/path" for 127.0.0.1 at 2020-01-19 16:57:17 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"kG4an/mcJjgUUQHGv3iLtWX58ZnN3peUs+xpB5gWPtjV5kL1sirZ9rBQAxia2UNCxtbmsTJSdDz/dEOslpADww==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testando", "body"=>"teste de mailer", "commit"=>"submit"}
+ApplicationMailer#mail_method: processed outbound mail in 0.6ms
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3441)
+
+
+  
+ActionView::MissingTemplate (Missing template application_mailer/mail_method with "mailer". Searched in:
+  * "application_mailer"
+):
+  
+app/mailers/application_mailer.rb:7:in `mail_method'
+app/controllers/application_controller.rb:6:in `path'
+Started POST "/path" for 127.0.0.1 at 2020-01-19 16:58:04 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"kG4an/mcJjgUUQHGv3iLtWX58ZnN3peUs+xpB5gWPtjV5kL1sirZ9rBQAxia2UNCxtbmsTJSdDz/dEOslpADww==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testando", "body"=>"teste de mailer", "commit"=>"submit"}
+ApplicationMailer#mail_method: processed outbound mail in 1.2ms
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3847)
+
+
+  
+ActionView::MissingTemplate (Missing template application_mailer/mail_method with "mailer". Searched in:
+  * "application_mailer"
+):
+  
+app/mailers/application_mailer.rb:7:in `mail_method'
+app/controllers/application_controller.rb:6:in `path'
+Started POST "/path" for 127.0.0.1 at 2020-01-19 16:58:10 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"kG4an/mcJjgUUQHGv3iLtWX58ZnN3peUs+xpB5gWPtjV5kL1sirZ9rBQAxia2UNCxtbmsTJSdDz/dEOslpADww==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testando", "body"=>"teste de mailer", "commit"=>"submit"}
+ApplicationMailer#mail_method: processed outbound mail in 1.2ms
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1801)
+
+
+  
+ActionView::MissingTemplate (Missing template application_mailer/mail_method with "mailer". Searched in:
+  * "application_mailer"
+):
+  
+app/mailers/application_mailer.rb:7:in `mail_method'
+app/controllers/application_controller.rb:6:in `path'
+Started GET "/" for 127.0.0.1 at 2020-01-19 16:58:17 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 459)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 86)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 5111)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 16:58:32 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 621)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 89)
+Completed 200 OK in 40ms (Views: 34.3ms | ActiveRecord: 0.0ms | Allocations: 8288)
+
+
+Started POST "/path" for 127.0.0.1 at 2020-01-19 16:58:35 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"99yWvmJAw5sd7KTZeTidfGZwAK/KVFQQ4jK2JXai5FKyVM7UKfY8VbntpgdcmVWLxV8XhzXYt7iuqpyOeCTZSQ==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testando", "body"=>"teste de mailer", "commit"=>"submit"}
+ApplicationMailer#mail_method: processed outbound mail in 1.5ms
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 13240)
+
+
+  
+ActionView::MissingTemplate (Missing template application_mailer/mail_method with "mailer". Searched in:
+  * "application_mailer"
+):
+  
+app/mailers/application_mailer.rb:7:in `mail_method'
+app/controllers/application_controller.rb:6:in `path'
+Started POST "/path" for 127.0.0.1 at 2020-01-19 16:59:44 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"99yWvmJAw5sd7KTZeTidfGZwAK/KVFQQ4jK2JXai5FKyVM7UKfY8VbntpgdcmVWLxV8XhzXYt7iuqpyOeCTZSQ==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testando", "body"=>"teste de mailer", "commit"=>"submit"}
+ApplicationMailer#mail_method: processed outbound mail in 0.6ms
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1817)
+
+
+  
+ActionView::MissingTemplate (Missing template application_mailer/mail_method with "mailer". Searched in:
+  * "application_mailer"
+):
+  
+app/mailers/application_mailer.rb:7:in `mail_method'
+app/controllers/application_controller.rb:6:in `path'
+Started GET "/" for 127.0.0.1 at 2020-01-19 17:02:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 3875)
+
+
+Started POST "/path" for 127.0.0.1 at 2020-01-19 17:02:45 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"2w3Z9uAFddCTEVt9DNXB5GggMDqGdvezX50uXgG5+F2ehYGcq7OKHjcQWaMpdAkTyw8nEnn6FBsTBQT1Dz/FRg==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testando", "body"=>"teste de mailer", "commit"=>"submit"}
+ApplicationMailer#send_notification_to_master: processed outbound mail in 1.4ms
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 3879)
+
+
+  
+ActionView::MissingTemplate (Missing template application_mailer/send_notification_to_master with "mailer". Searched in:
+  * "application_mailer"
+):
+  
+app/mailers/application_mailer.rb:7:in `send_notification_to_master'
+app/controllers/application_controller.rb:6:in `path'
+Started GET "/" for 127.0.0.1 at 2020-01-19 17:03:51 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 3851)
+
+
+Started POST "/path" for 127.0.0.1 at 2020-01-19 17:03:52 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"zLbe81cWSAPbmqXsBP4aFsTMTiOvLAYRZrjECcOVEH2JPoaZHKC3zX+bpzIhX9LhZ+NZC1Cg5bkqIO6izRMtZg==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testando", "body"=>"teste de mailer", "commit"=>"submit"}
+ApplicationMailer#send_notification_to_master: processed outbound mail in 1.3ms
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3423)
+
+
+  
+ActionView::MissingTemplate (Missing template application_mailer/send_notification_to_master with "mailer". Searched in:
+  * "application_mailer"
+):
+  
+app/mailers/application_mailer.rb:7:in `send_notification_to_master'
+app/controllers/application_controller.rb:6:in `path'
+Started GET "/" for 127.0.0.1 at 2020-01-19 17:06:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 459)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.4ms | Allocations: 86)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 5108)
+
+
+Started POST "/path" for 127.0.0.1 at 2020-01-19 17:06:21 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"VGTTNLKTXVpfNsycCcPeGN37xmwRVroGajjR5LUfIFcR7Ite+SWilPs3zkIsYhbvftTRRO7aWa4moPtPu5kdTA==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testando", "body"=>"teste de mailer", "commit"=>"submit"}
+  Rendering application_mailer/send_notification_to_master.html.erb
+  Rendered application_mailer/send_notification_to_master.html.erb (Duration: 0.7ms | Allocations: 139)
+  Rendering application_mailer/send_notification_to_master.text.erb
+  Rendered application_mailer/send_notification_to_master.text.erb (Duration: 1.1ms | Allocations: 99)
+ApplicationMailer#send_notification_to_master: processed outbound mail in 138.7ms
+Delivered mail 5e24b6be35bed_14a2b0e4bb906e840951@victornunes-Inspiron-5548.mail (295.0ms)
+Date: Sun, 19 Jan 2020 17:06:22 -0300
+From: no-reply@devweb.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e24b6be35bed_14a2b0e4bb906e840951@victornunes-Inspiron-5548.mail>
+Subject: testando
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e24b6bdeed08_14a2b0e4bb906e8408fc";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24b6bdeed08_14a2b0e4bb906e8408fc
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24b6bdeed08_14a2b0e4bb906e8408fc
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+    teste de mailer
+  </body>
+</html>
+
+----==_mimepart_5e24b6bdeed08_14a2b0e4bb906e8408fc--
+
+No template found for ApplicationController#path, rendering head :no_content
+Completed 204 No Content in 442ms (ActiveRecord: 0.0ms | Allocations: 14061)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 17:12:41 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 149ms (Views: 147.5ms | ActiveRecord: 0.0ms | Allocations: 3727)
+
+
+Started POST "/path" for 127.0.0.1 at 2020-01-19 17:12:53 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"tqzhxzvU21oKDgb/ppdbVcOzQYjWPhctoUVHNdbB+q/zJLmtcGIklK4PBCGDNpOiYJxWoCmy9IXt3W2e2EfHtA==", "email"=>"victoralcnunes@gmail.com", "subject"=>"testando", "body"=>"teste de mai", "commit"=>"submit"}
+  Rendering application_mailer/send_notification_to_master.html.erb
+  Rendered application_mailer/send_notification_to_master.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendering application_mailer/send_notification_to_master.text.erb
+  Rendered application_mailer/send_notification_to_master.text.erb (Duration: 0.1ms | Allocations: 8)
+ApplicationMailer#send_notification_to_master: processed outbound mail in 5.5ms
+Delivered mail 5e24b845ec142_14a2b0e4bb906e8411ad@victornunes-Inspiron-5548.mail (266.4ms)
+Date: Sun, 19 Jan 2020 17:12:53 -0300
+From: no-reply@devweb.com
+To: victoralcnunes@gmail.com
+Message-ID: <5e24b845ec142_14a2b0e4bb906e8411ad@victornunes-Inspiron-5548.mail>
+Subject: testando
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e24b845b8bbe_14a2b0e4bb906e8410a2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24b845b8bbe_14a2b0e4bb906e8410a2
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24b845b8bbe_14a2b0e4bb906e8410a2
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+    teste de mai
+  </body>
+</html>
+
+----==_mimepart_5e24b845b8bbe_14a2b0e4bb906e8410a2--
+
+No template found for ApplicationController#path, rendering head :no_content
+Completed 204 No Content in 287ms (ActiveRecord: 0.0ms | Allocations: 8499)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 17:16:33 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 146ms (Views: 145.0ms | ActiveRecord: 0.0ms | Allocations: 3854)
+
+
+Started POST "/path" for 127.0.0.1 at 2020-01-19 17:16:46 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"Y72s1DtIfZYu8dc1dRytK+mUZ7F/R8UGfYOaLl7w+FYmNfS+cP6CWIrw1etQvWXcSrtwmYDLJq4xG7CFUHbFTQ==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testando", "body"=>"teste de mailer", "commit"=>"submit"}
+  Rendering application_mailer/send_notification_to_master.html.erb
+  Rendered application_mailer/send_notification_to_master.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendering application_mailer/send_notification_to_master.text.erb
+  Rendered application_mailer/send_notification_to_master.text.erb (Duration: 0.1ms | Allocations: 8)
+ApplicationMailer#send_notification_to_master: processed outbound mail in 6.4ms
+Delivered mail 5e24b92fe6565_14a2b0e4bb9064841380@victornunes-Inspiron-5548.mail (25.6ms)
+Date: Sun, 19 Jan 2020 17:16:47 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e24b92fe6565_14a2b0e4bb9064841380@victornunes-Inspiron-5548.mail>
+Subject: testando
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e24b92fe56de_14a2b0e4bb9064841214";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24b92fe56de_14a2b0e4bb9064841214
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24b92fe56de_14a2b0e4bb9064841214
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+    teste de mailer
+  </body>
+</html>
+
+----==_mimepart_5e24b92fe56de_14a2b0e4bb9064841214--
+
+No template found for ApplicationController#path, rendering head :no_content
+Completed 204 No Content in 1193ms (ActiveRecord: 0.0ms | Allocations: 10277)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 17:29:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 18.9ms | Allocations: 621)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 15.5ms | Allocations: 89)
+Completed 200 OK in 1214ms (Views: 1208.4ms | ActiveRecord: 0.0ms | Allocations: 12436)
+
+
+Started POST "/path" for 127.0.0.1 at 2020-01-19 17:29:23 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"phF2mdBGkM0zjERAwpxUcD8ZcYzCbd/6hZlU6gUgNkzjmS7zm/BvA5eNRp7nPZyHnDZmpD3hPFLJAX5BC6YLVw==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testando", "body"=>"teste de mailer", "commit"=>"submit"}
+  Rendering application_mailer/send_notification_to_master.html.erb
+  Rendered application_mailer/send_notification_to_master.html.erb (Duration: 17.0ms | Allocations: 140)
+  Rendering application_mailer/send_notification_to_master.text.erb
+  Rendered application_mailer/send_notification_to_master.text.erb (Duration: 0.9ms | Allocations: 99)
+ApplicationMailer#send_notification_to_master: processed outbound mail in 28.4ms
+Delivered mail 5e24bc23cd803_9042b0ae48abdd427a7@victornunes-Inspiron-5548.mail (1397.6ms)
+Date: Sun, 19 Jan 2020 17:29:23 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e24bc23cd803_9042b0ae48abdd427a7@victornunes-Inspiron-5548.mail>
+Subject: testando
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e24bc23cb5fd_9042b0ae48abdd42683";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24bc23cb5fd_9042b0ae48abdd42683
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24bc23cb5fd_9042b0ae48abdd42683
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+    teste de mailer
+  </body>
+</html>
+
+----==_mimepart_5e24bc23cb5fd_9042b0ae48abdd42683--
+
+No template found for ApplicationController#path, rendering head :no_content
+Completed 204 No Content in 1590ms (ActiveRecord: 0.0ms | Allocations: 23409)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 17:37:17 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 224)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 3733)
+
+
+Started POST "/path" for 127.0.0.1 at 2020-01-19 17:37:18 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"l7+q+IyVzk0gF+SW6rIiOJhlIZH8WI6PXWxRWjZTadnSN/KSxyMxg4QW5kjPE+rPO0o2uQPUbScR9HvxONVUwg==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testando", "body"=>"teste de mailer", "commit"=>"submit"}
+  Rendering application_mailer/send_notification_to_master.html.erb
+  Rendered application_mailer/send_notification_to_master.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendering application_mailer/send_notification_to_master.text.erb
+  Rendered application_mailer/send_notification_to_master.text.erb (Duration: 0.0ms | Allocations: 8)
+ApplicationMailer#send_notification_to_master: processed outbound mail in 3.3ms
+Delivered mail 5e24bdfeadafa_9042b0ae48abfb4296a@victornunes-Inspiron-5548.mail (2357.9ms)
+Date: Sun, 19 Jan 2020 17:37:18 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e24bdfeadafa_9042b0ae48abfb4296a@victornunes-Inspiron-5548.mail>
+Subject: testando
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e24bdfead061_9042b0ae48abfb4286e";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24bdfead061_9042b0ae48abfb4286e
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24bdfead061_9042b0ae48abfb4286e
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+    teste de mailer
+  </body>
+</html>
+
+----==_mimepart_5e24bdfead061_9042b0ae48abfb4286e--
+
+No template found for ApplicationController#path, rendering head :no_content
+Completed 204 No Content in 2364ms (ActiveRecord: 0.0ms | Allocations: 8863)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 17:40:23 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.4ms | Allocations: 621)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_scripts.html.erb (Duration: 8.6ms | Allocations: 89)
+Completed 200 OK in 222ms (Views: 216.3ms | ActiveRecord: 0.0ms | Allocations: 8529)
+
+
+Started POST "/path" for 127.0.0.1 at 2020-01-19 17:40:27 -0300
+Processing by ApplicationController#path as HTML
+  Parameters: {"authenticity_token"=>"zTD931TZKB12+AJ6PJzoOjkb9oyLJB0GPMo3+bK1v3SIuKW1H2/X09L5AKQZPSDNmjThpHSo/q5wUh1SvDOCbw==", "email"=>"victoralcnunes@hotmail.com", "subject"=>"testando", "body"=>"teste de mailer", "commit"=>"submit"}
+  Rendering application_mailer/send_notification_to_master.html.erb
+  Rendered application_mailer/send_notification_to_master.html.erb (Duration: 18.5ms | Allocations: 140)
+  Rendering application_mailer/send_notification_to_master.text.erb
+  Rendered application_mailer/send_notification_to_master.text.erb (Duration: 0.4ms | Allocations: 109)
+ApplicationMailer#send_notification_to_master: processed outbound mail in 26.1ms
+Delivered mail 5e24bebb2d441_bdd2ae83235092c5ad@victornunes-Inspiron-5548.mail (3222.2ms)
+Date: Sun, 19 Jan 2020 17:40:27 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e24bebb2d441_bdd2ae83235092c5ad@victornunes-Inspiron-5548.mail>
+Subject: testando
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e24bebb2a773_bdd2ae83235092c432";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24bebb2a773_bdd2ae83235092c432
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+teste de mailer
+----==_mimepart_5e24bebb2a773_bdd2ae83235092c432
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+    teste de mailer
+  </body>
+</html>
+
+----==_mimepart_5e24bebb2a773_bdd2ae83235092c432--
+
+No template found for ApplicationController#path, rendering head :no_content
+Completed 204 No Content in 3296ms (ActiveRecord: 0.0ms | Allocations: 25524)
+
+
