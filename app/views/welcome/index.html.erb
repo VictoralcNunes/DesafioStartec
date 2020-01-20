@@ -9,19 +9,31 @@
     </div>
   </div>
 </section>
+
 <section id="minion-form">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12" style="height:100px">
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <%= image_tag("minion-dave.png", alt:"minion-toy", class:"minion") %>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <%= render "layouts/mailer_form"%>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contatos" class="col-12 bg-secondary">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-12">
-        <%= image_tag("minion1.png", :alt => "minion-toy") %>
+        <p>Entre em contato conosco</p>
       </div>
       <div class="col-md-6 col-sm-12">
-        <%= form_tag '/send_minions' do%>
-          Email : <br><%= email_field_tag 'email', 'email@example.com'%><br>
-          subject: <br><%= text_field_tag 'name', ''%><br>
-          Body:<%= number_field_tag 'quantity'%>
-          <%= submit_tag "submit",:value => "submit"%>
-        <%end%>
+        <p>Entre em contato conosco</p>
       </div>
     </div>
   </div>

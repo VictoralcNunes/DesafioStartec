@@ -4,6 +4,7 @@
 body {
     background: url('https://fimgs.net/mdimg/secundar/o.40062.jpg') no-repeat center center fixed;
     background-size: cover;
+    
   }
   html, body{
     height: 100%;
@@ -48,7 +49,7 @@ body {
   .text h1 {
     text-align: center;
     text-shadow: 1px 1px rgba(0, 0, 0, .1);
-    color: #ffffff;
+    color: #000000;
     margin-top: 57px;
     font-family: 'Lora', serif;
     font-weight: 700;
@@ -57,7 +58,7 @@ body {
   
   .text p {
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     text-shadow: 1px 1px rgba(0, 0, 0, .1);
     margin-top: 0px;
     font-family: 'Lato', serif;
@@ -70,4 +71,30 @@ section{
 
 #welcome{
     height: 100%; 
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#minion-form {
+    background: url('https://i.pinimg.com/originals/f9/fc/41/f9fc41708683303ef9831535bc9415ef.png') no-repeat center center fixed;
+    background-size: cover;
+}
+.minion-form-box{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding:20px;
+    margin-top: 20px;
+}
+.minion{
+    width: 100%;
+    height: 100%;
+}
+
+#contatos{
+    height: 100px;
+}
+#contatos p{
+    position: relative;
+    color: white;
+    text-align: center;
+    top:40px
 }

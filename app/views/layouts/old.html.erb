@@ -1,0 +1,6 @@
+<%= form_tag '/send_minions' do%>
+          Email : <br><%= email_field_tag 'email', 'email@example.com'%><br>
+          subject: <br><%= text_field_tag 'name', ''%><br>
+          Body:<%= number_field_tag 'quantity'%>
+          <%= submit_tag "submit",:value => "submit"%>
+        <%end%>

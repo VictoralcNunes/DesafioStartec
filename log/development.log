@@ -2079,3 +2079,1259 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.0ms | Allocations: 6903)
 
 
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:26:02 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1673.9ms | Allocations: 14774)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 588)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 88)
+Completed 200 OK in 1698ms (Views: 1693.4ms | ActiveRecord: 0.0ms | Allocations: 21506)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:26:07 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 796)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 5229)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:26:08 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 793)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 5226)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:26:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 793)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.6ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 5223)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:26:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 5218)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:26:15 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 793)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 5220)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:26:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 5222)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:29:32 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 690ms (Views: 689.6ms | ActiveRecord: 0.0ms | Allocations: 20523)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:29:39 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 5222)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:30:02 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 644ms (Views: 643.1ms | ActiveRecord: 0.0ms | Allocations: 19858)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:30:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 681ms (Views: 680.4ms | ActiveRecord: 0.0ms | Allocations: 20267)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:30:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 3.3ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 5217)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:32:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.3ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 5218)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:32:33 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 5259)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:53:33 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1045)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 576)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 85)
+Completed 200 OK in 660ms (Views: 659.0ms | ActiveRecord: 0.0ms | Allocations: 21981)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:53:49 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 795)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 632ms (Views: 631.4ms | ActiveRecord: 0.0ms | Allocations: 19861)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:53:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 5222)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:53:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 5222)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:53:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 5217)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:54:17 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 661ms (Views: 660.7ms | ActiveRecord: 0.0ms | Allocations: 20273)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:54:30 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 661ms (Views: 659.7ms | ActiveRecord: 0.0ms | Allocations: 19860)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:56:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1057)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 576)
+  Rendered layouts/_scripts.html.erb (Duration: 0.4ms | Allocations: 85)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 6922)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:57:39 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1052)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 576)
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 85)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 6913)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:58:22 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 795)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 655ms (Views: 653.1ms | ActiveRecord: 0.0ms | Allocations: 20305)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:58:51 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 712ms (Views: 711.2ms | ActiveRecord: 0.0ms | Allocations: 20650)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:59:00 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 14.2ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 659ms (Views: 658.5ms | ActiveRecord: 0.0ms | Allocations: 20310)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:59:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 648ms (Views: 647.5ms | ActiveRecord: 0.0ms | Allocations: 21133)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:59:34 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 649ms (Views: 648.5ms | ActiveRecord: 0.0ms | Allocations: 20685)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:59:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 651ms (Views: 650.0ms | ActiveRecord: 0.0ms | Allocations: 20729)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:00:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 641ms (Views: 640.0ms | ActiveRecord: 0.0ms | Allocations: 20693)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:01:08 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 654ms (Views: 653.8ms | ActiveRecord: 0.0ms | Allocations: 20720)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:01:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 658ms (Views: 657.1ms | ActiveRecord: 0.0ms | Allocations: 21135)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:08:02 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 1.0ms | Allocations: 321)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1272)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 85)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 7133)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:08:22 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.9ms | Allocations: 314)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1249)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 85)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 7105)
+
+
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 22:08:56 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"d8ClkVyR955KmKeLa4/U/0D/kPi+GtZ6lUMICQjiuiMySP37FycIUO6ZpVVOLhwI49CH0EGWNdLZ2yKiBmSHOA==", "commit"=>"submit"}
+  Rendering application_mailer/send_notification.html.erb
+  Rendered application_mailer/send_notification.html.erb (Duration: 15.1ms | Allocations: 156)
+  Rendering application_mailer/send_notification.text.erb
+  Rendered application_mailer/send_notification.text.erb (Duration: 14.9ms | Allocations: 110)
+ApplicationMailer#send_notification: processed outbound mail in 35.4ms
+Delivered mail 5e24fda878ad9_2e322ad24c272d309862f@victornunes-Inspiron-5548.mail (3417.9ms)
+Date: Sun, 19 Jan 2020 22:08:56 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e24fda878ad9_2e322ad24c272d309862f@victornunes-Inspiron-5548.mail>
+Subject: Novo pedido!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e24fda8708e7_2e322ad24c272d3098537";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24fda8708e7_2e322ad24c272d3098537
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24fda8708e7_2e322ad24c272d3098537
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    =0D
+    <h1>Voc=C3=AA tem uma nova demanda!</h1>=0D
+    <p><b></b> fez um pedido de <b></b> Minions!</p>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5e24fda8708e7_2e322ad24c272d3098537--
+
+No template found for ApplicationController#send_minions, rendering head :no_content
+Completed 204 No Content in 3937ms (ActiveRecord: 0.0ms | Allocations: 26301)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:12:23 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.6ms | Allocations: 315)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1250)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.3ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.4ms | Allocations: 85)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 7101)
+
+
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 22:12:33 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"m/nc9AaIGmaEKtBJRGeQBuWyPiHCOMuCkTqzEeCg88vecYSeTT7lqCAr0pdhxljxRp0pCT20KCrdopm67ibO0A==", "commit"=>"Pedir!"}
+  Rendering application_mailer/send_notification.html.erb
+  Rendered application_mailer/send_notification.html.erb (Duration: 0.6ms | Allocations: 150)
+  Rendering application_mailer/send_notification.text.erb
+  Rendered application_mailer/send_notification.text.erb (Duration: 0.5ms | Allocations: 106)
+ApplicationMailer#send_notification: processed outbound mail in 10.5ms
+Delivered mail 5e24fe81c148e_2e322ad24c272d30988f8@victornunes-Inspiron-5548.mail (3126.7ms)
+Date: Sun, 19 Jan 2020 22:12:33 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e24fe81c148e_2e322ad24c272d30988f8@victornunes-Inspiron-5548.mail>
+Subject: Novo pedido!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e24fe81c0534_2e322ad24c272d3098763";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24fe81c0534_2e322ad24c272d3098763
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e24fe81c0534_2e322ad24c272d3098763
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    =0D
+    <h1>Voc=C3=AA tem uma nova demanda!</h1>=0D
+    <p><b></b> fez um pedido de <b></b> Minions!</p>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5e24fe81c0534_2e322ad24c272d3098763--
+
+No template found for ApplicationController#send_minions, rendering head :no_content
+Completed 204 No Content in 3143ms (ActiveRecord: 0.0ms | Allocations: 14045)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:12:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.5ms | Allocations: 142)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 781)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 5214)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:17:47 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.8ms | Allocations: 650)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1591)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 3.1ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 85)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 7448)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:18:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 1.2ms | Allocations: 635)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1570)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 85)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 7424)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:18:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 1.6ms | Allocations: 634)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1569)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 85)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 7421)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:20:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 1.0ms | Allocations: 654)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1589)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 85)
+Completed 200 OK in 713ms (Views: 712.5ms | ActiveRecord: 0.0ms | Allocations: 23750)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:20:22 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.3ms | Allocations: 315)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 954)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 707ms (Views: 706.9ms | ActiveRecord: 0.0ms | Allocations: 20458)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:20:37 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.9ms | Allocations: 313)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 952)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 701ms (Views: 700.6ms | ActiveRecord: 0.0ms | Allocations: 20034)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:20:51 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.5ms | Allocations: 312)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 951)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 637ms (Views: 636.5ms | ActiveRecord: 0.0ms | Allocations: 20825)
+
+
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 22:21:01 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"cPlY4hI6zhezl9LhYed2xpuh8zFP3XaNHTBO5ewgIUE1cQCIWYwx2ReW0D9ERr4xOI7kGbBRlSVRqGRO4qYcWg==", "name"=>"Victor Nunes", "email"=>"gosteidesse@quero.com", "minions_qtd"=>"7", "commit"=>"Pedir!"}
+  Rendering application_mailer/send_notification.html.erb
+  Rendered application_mailer/send_notification.html.erb (Duration: 0.4ms | Allocations: 158)
+  Rendering application_mailer/send_notification.text.erb
+  Rendered application_mailer/send_notification.text.erb (Duration: 0.2ms | Allocations: 106)
+ApplicationMailer#send_notification: processed outbound mail in 8.4ms
+Delivered mail 5e25007d851f7_2e322ad24c272df899031@victornunes-Inspiron-5548.mail (3133.7ms)
+Date: Sun, 19 Jan 2020 22:21:01 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e25007d851f7_2e322ad24c272df899031@victornunes-Inspiron-5548.mail>
+Subject: Novo pedido!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e25007d843f7_2e322ad24c272df89893c";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e25007d843f7_2e322ad24c272df89893c
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e25007d843f7_2e322ad24c272df89893c
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    =0D
+    <h1>Voc=C3=AA tem uma nova demanda!</h1>=0D
+    <p><b>Victor Nunes</b> fez um pedido de <b>7</b> Minions!</p>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5e25007d843f7_2e322ad24c272df89893c--
+
+No template found for ApplicationController#send_minions, rendering head :no_content
+Completed 204 No Content in 3147ms (ActiveRecord: 0.0ms | Allocations: 14087)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:22:36 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.9ms | Allocations: 647)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1593)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 580)
+  Rendered layouts/_scripts.html.erb (Duration: 0.4ms | Allocations: 85)
+Completed 200 OK in 712ms (Views: 711.5ms | ActiveRecord: 0.0ms | Allocations: 22535)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:22:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.5ms | Allocations: 315)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 961)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 5391)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:22:47 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.4ms | Allocations: 312)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 958)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 5387)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:22:48 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.7ms | Allocations: 312)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 958)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 5389)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:23:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 55.4ms | Allocations: 6033)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 56.9ms | Allocations: 6981)
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.0ms | Allocations: 8144)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:25:24 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 1.7ms | Allocations: 1358)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2305)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 3456)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<div class="minion-form-box">
+  <%= form_tag '/send_minions' do%>
+    <div class="form-group">
+      <%= label_tag :name, value:"Qual o seu nome?" %><br>
+      <%= text_field_tag :name, class:"form-control" %>
+      <%# <label for="name">Qual o seu nome?</label>
+      <input type="text" class="form-control" id="name"> %>
+    </div>
+    <div class="form-group">
+      <%= label_tag :email, value:"Informe um email de contato: ") %><br>
+      <%= email_field_tag :email , class:"form-control" %>
+      <%# <label for="email">Informe um email de contato:</label>
+      <input type="email" class="form-control" id="email" aria-describedby="emailHelp"> %>
+      <%# <small id="email" class="form-text text-muted"></small> %>
+    </div>
+    <div class="form-group">
+      <%= label_tag :minions_qtd, value:"Quantos Minions?") %><br>
+      <%= number_field_tag :minions_qtd, class:"form-control" %>
+      <%# <label class="minions_qtd" for="exampleCheck1">Quantos Minions?</label>
+      <input type="number" class="form-check-input" id="minions_qtd"> %>
+    </div>
+    <%= submit_tag "submit",:value => "Pedir!", :class => "btn btn-primary"%>
+  <%end%>
+</div>
+
+):
+1:    
+2:    <div class="minion-form-box">
+3:      <%= form_tag '/send_minions' do%>
+4:        <div class="form-group">
+5:          <%= label_tag :name, value:"Qual o seu nome?" %><br>
+6:          <%= text_field_tag :name, class:"form-control" %>
+7:          <%# <label for="name">Qual o seu nome?</label>
+8:          <input type="text" class="form-control" id="name"> %>
+9:        </div>
+10:        <div class="form-group">
+11:          <%= label_tag :email, value:"Informe um email de contato: ") %><br>
+12:          <%= email_field_tag :email , class:"form-control" %>
+13:          <%# <label for="email">Informe um email de contato:</label>
+14:          <input type="email" class="form-control" id="email" aria-describedby="emailHelp"> %>
+15:          <%# <small id="email" class="form-text text-muted"></small> %>
+16:        </div>
+17:        <div class="form-group">
+18:          <%= label_tag :minions_qtd, value:"Quantos Minions?") %><br>
+19:          <%= number_field_tag :minions_qtd, class:"form-control" %>
+20:          <%# <label class="minions_qtd" for="exampleCheck1">Quantos Minions?</label>
+21:          <input type="number" class="form-check-input" id="minions_qtd"> %>
+22:        </div>
+23:        <%= submit_tag "submit",:value => "Pedir!", :class => "btn btn-primary"%>
+24:      <%end%>
+25:    </div>
+  
+app/views/layouts/_mailer_form.html.erb:11: syntax error, unexpected ')', expecting end
+app/views/layouts/_mailer_form.html.erb:18: syntax error, unexpected ')', expecting end
+app/views/layouts/_mailer_form.html.erb:28: syntax error, unexpected end, expecting end-of-input
+app/views/layouts/_mailer_form.html.erb:11: syntax error, unexpected ')', expecting end
+app/views/layouts/_mailer_form.html.erb:18: syntax error, unexpected ')', expecting end
+app/views/layouts/_mailer_form.html.erb:28: syntax error, unexpected end, expecting end-of-input
+app/views/layouts/_mailer_form.html.erb:11: syntax error, unexpected ')', expecting end
+app/views/layouts/_mailer_form.html.erb:18: syntax error, unexpected ')', expecting end
+app/views/layouts/_mailer_form.html.erb:28: syntax error, unexpected end, expecting end-of-input
+app/views/layouts/_mailer_form.html.erb:11: syntax error, unexpected ')', expecting end
+app/views/layouts/_mailer_form.html.erb:18: syntax error, unexpected ')', expecting end
+app/views/layouts/_mailer_form.html.erb:28: syntax error, unexpected end, expecting end-of-input
+app/views/layouts/_mailer_form.html.erb:11: syntax error, unexpected ')', expecting end
+app/views/layouts/_mailer_form.html.erb:18: syntax error, unexpected ')', expecting end
+app/views/layouts/_mailer_form.html.erb:28: syntax error, unexpected end, expecting end-of-input
+app/views/layouts/_mailer_form.html.erb:11: syntax error, unexpected ')', expecting end
+app/views/layouts/_mailer_form.html.erb:18: syntax error, unexpected ')', expecting end
+app/views/layouts/_mailer_form.html.erb:28: syntax error, unexpected end, expecting end-of-input
+app/views/welcome/index.html.erb:20
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:25:46 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 1.7ms | Allocations: 648)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1613)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 85)
+Completed 200 OK in 16ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 7492)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:26:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 1.6ms | Allocations: 647)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1591)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 85)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 7442)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:26:37 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 1.6ms | Allocations: 1358)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2305)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3460)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<div class="minion-form-box">
+  <%= form_tag '/send_minions' do%>
+    <div class="form-group">
+      <%= label_tag(:name, "Qual o seu nome?") %><br>
+      <%= text_field_tag(:name), {class:"form-control"} %>
+      <%# <label for="name">Qual o seu nome?</label>
+      <input type="text" class="form-control" id="name"> %>
+    </div>
+    <div class="form-group">
+      <%= label_tag(:email, "Informe um email de contato: ") %><br>
+      <%= email_field_tag(:email, {class:"form-control"}) %>
+      <%# <label for="email">Informe um email de contato:</label>
+      <input type="email" class="form-control" id="email" aria-describedby="emailHelp"> %>
+      <%# <small id="email" class="form-text text-muted"></small> %>
+    </div>
+    <div class="form-group">
+      <%= label_tag(:minions_qtd, "Quantos Minions?") %><br>
+      <%= number_field_tag(:minions_qtd, {class:"form-control"}) %>
+      <%# <label class="minions_qtd" for="exampleCheck1">Quantos Minions?</label>
+      <input type="number" class="form-check-input" id="minions_qtd"> %>
+    </div>
+    <%= submit_tag "submit",:value => "Pedir!", :class => "btn btn-primary"%>
+  <%end%>
+</div>
+
+):
+1:    
+2:    <div class="minion-form-box">
+3:      <%= form_tag '/send_minions' do%>
+4:        <div class="form-group">
+5:          <%= label_tag(:name, "Qual o seu nome?") %><br>
+6:          <%= text_field_tag(:name), {class:"form-control"} %>
+7:          <%# <label for="name">Qual o seu nome?</label>
+8:          <input type="text" class="form-control" id="name"> %>
+9:        </div>
+10:        <div class="form-group">
+11:          <%= label_tag(:email, "Informe um email de contato: ") %><br>
+12:          <%= email_field_tag(:email, {class:"form-control"}) %>
+13:          <%# <label for="email">Informe um email de contato:</label>
+14:          <input type="email" class="form-control" id="email" aria-describedby="emailHelp"> %>
+15:          <%# <small id="email" class="form-text text-muted"></small> %>
+16:        </div>
+17:        <div class="form-group">
+18:          <%= label_tag(:minions_qtd, "Quantos Minions?") %><br>
+19:          <%= number_field_tag(:minions_qtd, {class:"form-control"}) %>
+20:          <%# <label class="minions_qtd" for="exampleCheck1">Quantos Minions?</label>
+21:          <input type="number" class="form-check-input" id="minions_qtd"> %>
+22:        </div>
+23:        <%= submit_tag "submit",:value => "Pedir!", :class => "btn btn-primary"%>
+24:      <%end%>
+25:    </div>
+  
+app/views/layouts/_mailer_form.html.erb:6: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_mailer_form.html.erb:6: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_mailer_form.html.erb:6: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_mailer_form.html.erb:6: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_mailer_form.html.erb:6: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_mailer_form.html.erb:6: syntax error, unexpected ',', expecting ')'
+app/views/welcome/index.html.erb:20
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:29:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 1.9ms | Allocations: 605)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1551)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 85)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 7413)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:30:46 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.6ms | Allocations: 279)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 926)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 5358)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:30:48 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.6ms | Allocations: 276)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 5356)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:30:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.4ms | Allocations: 276)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 5354)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:31:06 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 1.6ms | Allocations: 605)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1556)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 85)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 7412)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:31:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.4ms | Allocations: 279)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 925)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 5358)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:31:41 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.3ms | Allocations: 276)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 694ms (Views: 693.7ms | ActiveRecord: 0.0ms | Allocations: 21259)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:31:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.5ms | Allocations: 276)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.6ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 5356)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:32:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 2.1ms | Allocations: 605)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1550)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 85)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 7404)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:32:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 267.1ms | Allocations: 4395)
+Completed 500 Internal Server Error in 271ms (ActiveRecord: 0.0ms | Allocations: 5552)
+
+
+  
+ActionView::Template::Error (The asset "minion-dave.png" is not present in the asset pipeline.):
+    14:   <div class="container">
+    15:     <div class="row">
+    16:       <div class="col-md-6 col-sm-12">
+    17:         <%= image_tag("minion-dave.png", alt:"minion-toy", class:"minion") %>
+    18:       </div>
+    19:       <div class="col-md-6 col-sm-12">
+    20:         <%= render "layouts/mailer_form"%>
+  
+app/views/welcome/index.html.erb:17
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:32:59 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 3.7ms | Allocations: 607)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1226.7ms | Allocations: 17961)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 85)
+Completed 200 OK in 1247ms (Views: 1246.1ms | ActiveRecord: 0.0ms | Allocations: 30086)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:33:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.3ms | Allocations: 279)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 925)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 5360)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:33:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.4ms | Allocations: 276)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 5362)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:33:21 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.7ms | Allocations: 276)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.3ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 5351)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:34:50 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.8ms | Allocations: 605)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1553)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 85)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 7410)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:34:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.5ms | Allocations: 279)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 925)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 5355)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:35:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.9ms | Allocations: 605)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1560)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 85)
+Completed 200 OK in 27ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 7429)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:35:12 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.5ms | Allocations: 279)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 925)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 5361)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:35:13 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.7ms | Allocations: 276)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 5352)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:35:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.4ms | Allocations: 276)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 5359)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:35:15 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.8ms | Allocations: 276)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 5350)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:36:46 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.5ms | Allocations: 276)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 670ms (Views: 669.5ms | ActiveRecord: 0.0ms | Allocations: 20867)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:37:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.3ms | Allocations: 276)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 5352)
+
+
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 22:37:26 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"d8x2N91nL6BJ2Kej3jtedJjvvy57HrkjUQEo6epJBIYyRC5dltHQbu3ZpX37mpaDO8CoBoSSWosdmQJC5M85nQ==", "name"=>"Victor Ferreira", "email"=>"gosteidesse@quero.com", "minions_qtd"=>"8", "commit"=>"Pedir!"}
+  Rendering application_mailer/send_notification.html.erb
+  Rendered application_mailer/send_notification.html.erb (Duration: 0.6ms | Allocations: 158)
+  Rendering application_mailer/send_notification.text.erb
+  Rendered application_mailer/send_notification.text.erb (Duration: 0.3ms | Allocations: 106)
+ApplicationMailer#send_notification: processed outbound mail in 19.3ms
+Delivered mail 5e25045679fb0_2e322ad24c272df8992ec@victornunes-Inspiron-5548.mail (3045.1ms)
+Date: Sun, 19 Jan 2020 22:37:26 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e25045679fb0_2e322ad24c272df8992ec@victornunes-Inspiron-5548.mail>
+Subject: Novo pedido!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e2504567959d_2e322ad24c272df899191";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e2504567959d_2e322ad24c272df899191
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e2504567959d_2e322ad24c272df899191
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    =0D
+    <h1>Voc=C3=AA tem uma nova demanda!</h1>=0D
+    <p><b>Victor Ferreira</b> fez um pedido de <b>8</b> Minions!</p>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5e2504567959d_2e322ad24c272df899191--
+
+No template found for ApplicationController#send_minions, rendering head :no_content
+Completed 204 No Content in 3070ms (ActiveRecord: 0.0ms | Allocations: 14101)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:38:41 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 1.0ms | Allocations: 605)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1554)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 85)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 7414)
+
+
+Started POST "/send_minions" for 127.0.0.1 at 2020-01-19 22:38:43 -0300
+Processing by ApplicationController#send_minions as HTML
+  Parameters: {"authenticity_token"=>"ZE7NHpDgx+nFKzR5dtobYHGVwvZT3aI96oe2L8oGSpwhxpV021Y4J2EqNqdTe9OX0rrV3qxRQZWmH5yExIB3hw==", "name"=>"Victor Ferreira", "email"=>"gosteidesse@quero.com", "minions_qtd"=>"8", "commit"=>"Pedir!"}
+  Rendering application_mailer/send_notification.html.erb
+  Rendered application_mailer/send_notification.html.erb (Duration: 0.8ms | Allocations: 172)
+  Rendering application_mailer/send_notification.text.erb
+  Rendered application_mailer/send_notification.text.erb (Duration: 0.3ms | Allocations: 89)
+ApplicationMailer#send_notification: processed outbound mail in 8.3ms
+Delivered mail 5e2504a364ce4_2e322ad24c272df899459@victornunes-Inspiron-5548.mail (3053.5ms)
+Date: Sun, 19 Jan 2020 22:38:43 -0300
+From: victoralcnunes@gmail.com
+To: victoralcnunes@hotmail.com
+Message-ID: <5e2504a364ce4_2e322ad24c272df899459@victornunes-Inspiron-5548.mail>
+Subject: Novo pedido!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5e2504a3643f8_2e322ad24c272df8993c7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e2504a3643f8_2e322ad24c272df8993c7
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5e2504a3643f8_2e322ad24c272df8993c7
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    =0D
+    <h1>Voc=C3=AA tem uma nova demanda!</h1>=0D
+    <p><b>Victor Ferreira</b> fez um pedido de <b>8</b> Minions!</p>=0D
+    <p>Email para contato: <b>gosteidesse@quero.com</b><p>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5e2504a3643f8_2e322ad24c272df8993c7--
+
+No template found for ApplicationController#send_minions, rendering head :no_content
+Completed 204 No Content in 3067ms (ActiveRecord: 0.0ms | Allocations: 14068)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:40:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 1.0ms | Allocations: 605)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1552)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 575)
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 85)
+Completed 200 OK in 16ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 7401)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:40:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.9ms | Allocations: 279)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 925)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 5365)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:40:21 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.7ms | Allocations: 276)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 5355)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:40:22 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_mailer_form.html.erb (Duration: 0.6ms | Allocations: 276)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 922)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.3ms | Allocations: 448)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 5357)
+
+

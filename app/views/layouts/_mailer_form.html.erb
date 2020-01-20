@@ -1,20 +1,25 @@
-<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
-<%= form_tag '/send_minions' do%>
-  <fieldset id="fs-frm-inputs">
-    <label for="full-name">Qual o seu nome?</label>
-    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-    <label for="email-address">informe um email de contato:</label>
-    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-    <label for="message">Quantos maravilhosos Minions você deseja?</label>
-    <input type="number" name="">
-    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-  </fieldset>
-  <input type="submit" value="Submit">
-<%end%>
 
-<%= form_tag '/send_minions' do%>
-  Email : <br><%= text_field_tag 'email', ''%><br>
-  subject: <br><%= text_field_tag 'name', ''%><br>
-  Body:<%= text_area_tag 'minions_qtd', ''%>
-  <%= submit_tag "submit",:value => "submit"%>
-<%end%>
+<div class="minion-form-box">
+  <%= form_tag '/send_minions' do %>
+    <div class="form-group">
+      <%= label_tag(:name, "Qual o seu nome?") %><br>
+      <%= text_field_tag(:name) %>
+      <%# <label for="name">Qual o seu nome?</label>
+      <input type="text" class="form-control" id="name"> %>
+    </div>
+    <div class="form-group">
+      <%= label_tag(:email, "Informe um email de contato: ") %><br>
+      <%= email_field_tag(:email) %>
+      <%# <label for="email">Informe um email de contato:</label>
+      <input type="email" class="form-control" id="email" aria-describedby="emailHelp"> %>
+      <%# <small id="email" class="form-text text-muted"></small> %>
+    </div>
+    <div class="form-group">
+      <%= label_tag(:minions_qtd, "Quantos Minions?") %><br>
+      <%= number_field_tag(:minions_qtd) %>
+      <%# <label class="minions_qtd" for="exampleCheck1">Quantos Minions?</label>
+      <input type="number" class="form-check-input" id="minions_qtd"> %>
+    </div>
+    <%= submit_tag "submit",:value => "Pedir!", :class => "btn btn-primary"%>
+  <%end%>
+</div>
