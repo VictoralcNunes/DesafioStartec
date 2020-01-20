@@ -1,6 +1,12 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('Archive/Archive-Regular.ttf') format('truetype');
+  }
+
+
 body {
     background: url('https://fimgs.net/mdimg/secundar/o.40062.jpg') no-repeat center center fixed;
     background-size: cover;

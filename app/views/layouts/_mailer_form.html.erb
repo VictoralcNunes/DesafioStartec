@@ -20,6 +20,7 @@
       <%# <label class="minions_qtd" for="exampleCheck1">Quantos Minions?</label>
       <input type="number" class="form-check-input" id="minions_qtd"> %>
     </div>
-    <%= submit_tag "submit",:value => "Pedir!", :class => "btn btn-primary"%>
+    <%= submit_tag "submit",:value => "Pedir!", :class => "btn btn-primary", onclick: "confirm_success()"%>
   <%end%>
 </div>
+

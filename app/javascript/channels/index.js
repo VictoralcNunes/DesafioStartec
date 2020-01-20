@@ -4,11 +4,16 @@
 const channels = require.context('.', true, /_channel\.js$/)
 channels.keys().forEach(channels)
 
-const confirm_success =
-  Swal.fire({
-    position: 'top-end',
-    icon: 'success',
-    title: 'Seu pedido foi enviado!',
-    showConfirmButton: false,
-    timer: 1500
-  })
+function confirm_success() {
+    swal({
+      title: "Alert",
+      text: "Seu pedido foi enviado",
+      timer: 3000,
+      confirmButtonText: "Ok!", 
+    }, function(){
+      window.location.reload();
+    });
+    setTimeout(function() {
+      window.location.reload();
+    }, 3000);
+  }
