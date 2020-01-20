@@ -6,6 +6,6 @@ class ApplicationMailer < ActionMailer::Base
     @email = email
     @user = user
     @qtd = qtd
-    mail(to: "victoralcnunes@hotmail.com", subject: "Novo pedido!")
+    mail(to: "joaotosto@startecexp.com", subject: "Novo pedido!")
   end
 end
