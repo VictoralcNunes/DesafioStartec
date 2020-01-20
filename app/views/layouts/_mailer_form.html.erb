@@ -1,12 +1,20 @@
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
+<%= form_tag '/send_minions' do%>
   <fieldset id="fs-frm-inputs">
-    <label for="full-name">Full Name</label>
+    <label for="full-name">Qual o seu nome?</label>
     <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-    <label for="email-address">Email Address</label>
+    <label for="email-address">informe um email de contato:</label>
     <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-    <label for="message">Message</label>
-    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+    <label for="message">Quantos maravilhosos Minions você deseja?</label>
+    <input type="number" name="">
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
   <input type="submit" value="Submit">
-</form>
+<%end%>
+
+<%= form_tag '/send_minions' do%>
+  Email : <br><%= text_field_tag 'email', ''%><br>
+  subject: <br><%= text_field_tag 'name', ''%><br>
+  Body:<%= text_area_tag 'minions_qtd', ''%>
+  <%= submit_tag "submit",:value => "submit"%>
+<%end%>

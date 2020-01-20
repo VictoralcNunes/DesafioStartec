@@ -1,14 +1,25 @@
+
+<section id="welcome" class="col-12">
+  <div class="widget center">
+    <div class="blur"></div>
+    
+    <div class="text center">
+      <h1 class="">Bem-vindo a MinionStore!</h1>
+      <p>Seja feliz com seu minion</p>
+    </div>
+  </div>
+</section>
 <section id="minion-form">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
-        <%= image_tag("minion1.jpg", :alt => "minion-toy") %>
+      <div class="col-md-6 col-sm-12">
+        <%= image_tag("minion1.png", :alt => "minion-toy") %>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-12">
         <%= form_tag '/send_minions' do%>
-          Email : <br><%= text_field_tag 'email', ''%><br>
+          Email : <br><%= email_field_tag 'email', 'email@example.com'%><br>
           subject: <br><%= text_field_tag 'name', ''%><br>
-          Body:<%= text_area_tag 'minions_qtd', ''%>
+          Body:<%= number_field_tag 'quantity'%>
           <%= submit_tag "submit",:value => "submit"%>
         <%end%>
       </div>

@@ -1486,3 +1486,596 @@ No template found for ApplicationController#send_minions, rendering head :no_con
 Completed 204 No Content in 3023ms (ActiveRecord: 0.0ms | Allocations: 14050)
 
 
+Started GET "/" for 127.0.0.1 at 2020-01-19 20:15:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3383.6ms | Allocations: 22440)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/victornunes/challenge/DesafioStartec/public/packs
+[Webpacker] Hash: 806f8af81f307d88fe75
+Version: webpack 4.41.5
+Time: 4738ms
+Built at: 2020-01-19 21:15:34
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-8978c2e10b9c19388240.js    124 KiB  application  [emitted] [immutable]  application
+js/application-8978c2e10b9c19388240.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-8978c2e10b9c19388240.js js/application-8978c2e10b9c19388240.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 370 bytes {application} [built]
+[./app/javascript/packs/application.js] 804 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layouts/_header.html.erb (Duration: 18.5ms | Allocations: 113)
+  Rendered layouts/_scripts.html.erb (Duration: 21.1ms | Allocations: 88)
+Completed 200 OK in 13862ms (Views: 13855.4ms | ActiveRecord: 0.0ms | Allocations: 34772)
+
+
+Started GET "/docs/4.4/assets/brand/bootstrap-solid.svg" for 127.0.0.1 at 2020-01-19 20:15:35 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.4/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-01-19 20:15:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 809)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 4692)
+
+
+Started GET "/docs/4.4/assets/brand/bootstrap-solid.svg" for 127.0.0.1 at 2020-01-19 20:15:42 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.4/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-01-19 20:15:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 787)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 4660)
+
+
+Started GET "/docs/4.4/assets/brand/bootstrap-solid.svg" for 127.0.0.1 at 2020-01-19 20:15:43 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.4/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-01-19 20:18:41 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1025)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 107)
+  Rendered layouts/_scripts.html.erb (Duration: 0.4ms | Allocations: 85)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 6315)
+
+
+Started GET "/docs/4.4/assets/brand/bootstrap-solid.svg" for 127.0.0.1 at 2020-01-19 20:18:41 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.4/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-01-19 20:19:57 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1024)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layouts/_scripts.html.erb (Duration: 0.4ms | Allocations: 85)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 6309)
+
+
+Started GET "/docs/4.4/assets/brand/bootstrap-solid.svg" for 127.0.0.1 at 2020-01-19 20:19:57 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.4/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-01-19 20:22:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1023)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 85)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6296)
+
+
+Started GET "/docs/4.4/assets/brand/bootstrap-solid.svg" for 127.0.0.1 at 2020-01-19 20:22:10 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.4/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-01-19 20:24:41 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1027)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 9.0ms | Allocations: 7248)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 86)
+Completed 200 OK in 743ms (Views: 741.9ms | ActiveRecord: 0.0ms | Allocations: 25625)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 20:31:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 32.6ms | Allocations: 1027)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 2.5ms | Allocations: 868)
+  Rendered layouts/_scripts.html.erb (Duration: 17.7ms | Allocations: 86)
+Completed 200 OK in 280ms (Views: 278.6ms | ActiveRecord: 0.0ms | Allocations: 7161)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 20:59:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3162.8ms | Allocations: 19240)
+Completed 500 Internal Server Error in 3306ms (ActiveRecord: 0.0ms | Allocations: 20405)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:00:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1233.8ms | Allocations: 18463)
+Completed 500 Internal Server Error in 1235ms (ActiveRecord: 0.0ms | Allocations: 18904)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:00:24 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 3903)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 4343)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:00:26 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 3847)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 4287)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:01:07 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 118.0ms | Allocations: 6113)
+Completed 500 Internal Server Error in 127ms (ActiveRecord: 0.0ms | Allocations: 7815)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:02:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 342.9ms | Allocations: 4896)
+Completed 500 Internal Server Error in 345ms (ActiveRecord: 0.0ms | Allocations: 5337)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:02:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 33.9ms | Allocations: 6113)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms | Allocations: 7815)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:03:50 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1408.1ms | Allocations: 17492)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/victornunes/challenge/DesafioStartec/public/packs
+[Webpacker] Hash: c93928813eefa334af6b
+Version: webpack 4.41.5
+Time: 3141ms
+Built at: 2020-01-19 22:03:59
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-2b41cfd0db1740ac7a6d.js    124 KiB  application  [emitted] [immutable]  application
+js/application-2b41cfd0db1740ac7a6d.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-2b41cfd0db1740ac7a6d.js js/application-2b41cfd0db1740ac7a6d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 408 bytes {application} [built]
+[./app/javascript/packs/application.js] 804 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layouts/_header.html.erb (Duration: 20.1ms | Allocations: 593)
+  Rendered layouts/_scripts.html.erb (Duration: 24.7ms | Allocations: 88)
+Completed 200 OK in 9361ms (Views: 9360.8ms | ActiveRecord: 0.0ms | Allocations: 30543)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:05:40 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 796)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 691ms (Views: 689.0ms | ActiveRecord: 0.0ms | Allocations: 19900)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:09:03 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1039)
+[Webpacker] Compiling...
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:09:04 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 793)
+[Webpacker] Compiling...
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:09:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 792)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/victornunes/challenge/DesafioStartec/public/packs
+[Webpacker] Hash: 09f0b33b8af7ebad2384
+Version: webpack 4.41.5
+Time: 3287ms
+Built at: 2020-01-19 22:09:11
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-642177cb4daf4c8bac32.js    124 KiB  application  [emitted] [immutable]  application
+js/application-642177cb4daf4c8bac32.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-642177cb4daf4c8bac32.js js/application-642177cb4daf4c8bac32.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 369 bytes {application} [built]
+[./app/javascript/packs/application.js] 804 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+[Webpacker] Compiled all packs in /home/victornunes/challenge/DesafioStartec/public/packs
+[Webpacker] Hash: 09f0b33b8af7ebad2384
+Version: webpack 4.41.5
+Time: 4648ms
+Built at: 2020-01-19 22:09:11
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-642177cb4daf4c8bac32.js    124 KiB  application  [emitted] [immutable]  application
+js/application-642177cb4daf4c8bac32.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-642177cb4daf4c8bac32.js js/application-642177cb4daf4c8bac32.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 369 bytes {application} [built]
+[./app/javascript/packs/application.js] 804 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+[Webpacker] Compiled all packs in /home/victornunes/challenge/DesafioStartec/public/packs
+[Webpacker] Hash: 09f0b33b8af7ebad2384
+Version: webpack 4.41.5
+Time: 4653ms
+Built at: 2020-01-19 22:09:11
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-642177cb4daf4c8bac32.js    124 KiB  application  [emitted] [immutable]  application
+js/application-642177cb4daf4c8bac32.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-642177cb4daf4c8bac32.js js/application-642177cb4daf4c8bac32.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 369 bytes {application} [built]
+[./app/javascript/packs/application.js] 804 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layouts/_header.html.erb (Duration: 14.6ms | Allocations: 2296)
+  Rendered layouts/_scripts.html.erb (Duration: 0.8ms | Allocations: 116)
+Completed 200 OK in 6357ms (Views: 6355.5ms | ActiveRecord: 0.0ms | Allocations: 8711)
+
+
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 8275ms (Views: 8273.6ms | ActiveRecord: 0.0ms | Allocations: 26886)
+
+
+  Rendered layouts/_header.html.erb (Duration: 5.5ms | Allocations: 1622)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7361ms (Views: 7360.0ms | ActiveRecord: 0.0ms | Allocations: 18997)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:09:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 795)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 2.9ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 5225)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:12:01 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 1038)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 582)
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 85)
+Completed 200 OK in 904ms (Views: 903.1ms | ActiveRecord: 0.0ms | Allocations: 22354)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:12:41 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 796)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 678ms (Views: 677.7ms | ActiveRecord: 0.0ms | Allocations: 20642)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:12:49 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 659ms (Views: 658.0ms | ActiveRecord: 0.0ms | Allocations: 20257)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:13:21 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1040)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 3.2ms | Allocations: 576)
+  Rendered layouts/_scripts.html.erb (Duration: 0.4ms | Allocations: 85)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 6894)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:13:33 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1040)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.3ms | Allocations: 576)
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 85)
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 6897)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:14:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 796)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 661ms (Views: 659.7ms | ActiveRecord: 0.0ms | Allocations: 19832)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:14:47 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 630ms (Views: 628.9ms | ActiveRecord: 0.0ms | Allocations: 19823)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:16:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 980ms (Views: 979.5ms | ActiveRecord: 0.0ms | Allocations: 20251)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:16:29 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 5260)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:18:04 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 842ms (Views: 841.0ms | ActiveRecord: 0.0ms | Allocations: 20665)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:20:33 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 449)
+  Rendered layouts/_scripts.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 708ms (Views: 707.5ms | ActiveRecord: 0.0ms | Allocations: 20707)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:21:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1047)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 576)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 85)
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.0ms | Allocations: 6903)
+
+
